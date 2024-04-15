@@ -1,0 +1,32 @@
+{
+  "cwd": "E:\\iay ngoding\\2024\\Maxy Academy\\Tugas\\Day 27 - Framework7 Components",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "Day 27 - Framework7 Components",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  }
+}
